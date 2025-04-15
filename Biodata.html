@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BioData</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #2c3e50; /* Dark background */
+      margin: 0;
+      padding: 20px;
+      color: #ecf0f1; /* Light text color */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased font size */
+      text-align: center; /* Center the heading */
+      margin-bottom: 20px; /* Space below the heading */
+      background: linear-gradient(to right, #1abc9c, #3498db); /* Gradient background */
+      -webkit-background-clip: text; /* Clip the background to the text */
+      -webkit-text-fill-color: transparent; /* Make the text color transparent */
+      animation: fadeIn 1s; /* Fade-in effect */
+    }
+    .container {
+      max-width: 800px; /* Limit the width of the content */
+      margin: auto; /* Center the container */
+      background-color: #34495e; /* Darker container background */
+      border-radius: 15px; /* Rounded corners */
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+      padding: 30px; /* Padding inside the container */
+      line-height: 1.6; /* Improved line height for readability */
+      transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow effect */
+    }
+    .container:hover {
+      transform: translateY(-5px); /* Slightly lift the container on hover */
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7); /* Increase shadow on hover */
+    }
+    h2 {
+      color: #1abc9c; /* Teal color for subheadings */
+      margin-top: 20px; /* Space above subheadings */
+      border-bottom: 2px solid #1abc9c; /* Underline effect */
+      padding-bottom: 5px; /* Space below the subheading */
+      animation: slideIn 0.5s; /* Slide-in effect */
+    }
+    ul {
+      margin: 10px 0; /* Margin for lists */
+      padding-left: 20px; /* Indent for lists */
+    }
+    li {
+      margin-bottom: 10px; /* Space between list items */
+      transition: color 0.3s; /* Smooth color transition */
+    }
+    li:hover {
+      color: #1abc9c; /* Change color on hover */
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #bdc3c7; /* Light footer text */
+      font-size: 0.9em; /* Smaller font size for footer */
+    }
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+      }
+      h2 {
+        font-size: 1.5em; /* Smaller subheading on mobile */
+      }
+    }
+    .email-button {
+      display: inline-block; /* Make it behave like a button */
+      padding: 10px 20px; /* Padding inside the button */
+      background-color: #1abc9c; /* Button background color */
+      color: white; /* Button text color */
+      border-radius: 5px; /* Rounded corners */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold; /* Bold text */
+      transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    }
+    .email-button:hover {
+      background-color: #16a085; /* Darker shade on hover */
+      transform: translateY(-2px); /* Slight lift on hover */
+    }
+    .email-button1 {
+      display: inline-block; /* Make it behave like a button */
+      padding: 10px 20px; /* Padding inside the button */
+      background-color: #bc911a; /* Button background color */
+      color: white; /* Button text color */
+      border-radius: 5px; /* Rounded corners */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold; /* Bold text */
+      transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    }
+    .email-button1:hover {
+      background-color: #bc911a; /* Darker shade on hover */
+      transform: translateY(-2px); /* Slight lift on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <h1>BioData</h1>
+      <li><strong>Personal Information</strong>
+        <ul>
+          <li>Arfat Elnour Osman Omer</li>
+          <li>01-03-2004</li>
+          <li>Male</li>
+          <li>Sudanese</li>
+          <li>Married</li>
+          <li>Muslim</li>
+        </ul>
+      </li>
+      <li><strong>Secondary Education</strong>
+        <ul>
+          <li> مدرسة تميم الداري المتوسطة بنين / Tamim Administrative Intermediate School for Boys - Saudi Arabia, Makkah<br> Completed : 2017</li>
+          <li> مدرسة جعفر الصادق الثانوية / Jaafar Al-Sadiq High School - Saudi Arabia, Makkah<br> Completed : 2020
+          </li>
+        </ul>
+      </li>
+      <li><strong>Higher Education</strong>
+        <ul>
+          <li>
+            Bachelor of Computer Science (IT) – Universiti Tun Hussein Onn Malaysia (UTHM)<br> Expected Graduation: 2026</li>
+        </ul>
+      </li>
+      <li><strong>Skills</strong>
+        <ul>
+          <li>Technical skills (e.g., Programming languages (e.g., Python, Java, C++, Dart), Web development (HTML, CSS, JavaScript), Mobile app development (Flutter), Database management (SQL), Operating systems (Linux, Windows), Video editing)</li>
+          <li>Languages known (English – Fluent, Arabic – Native, Malay – Basic)</li>
+          <li>Soft skills (e.g., communication, leadership)</li>
+        </ul>
+      </li>
+      <a href="index.html" class="email-button1" style="text-decoration: none;">Back To Personal Information </a>
+      <a href="mailto:xllx463@gmail.com" class="email-button">Send Email</a>
+    </ul>
+</body>
+</html> 

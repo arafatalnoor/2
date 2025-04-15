@@ -2,97 +2,187 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Task 1</title>
+  <title>Personal Information</title>
   <style>
-    table, th, td {
-      border: 2px solid black; /* Increased border thickness */
-      border-collapse: collapse;
-      padding: 8px;
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4; /* Light gray background */
+      margin: 0;
+      padding: 20px;
+      color: #333; /* Default text color */
     }
-    img {
-      width: 150px;
+    header {
+      text-align: center;
+      margin-bottom: 30px; /* Space below the header */
     }
-    th {
-      background-color: #f2f2f2; /* Light gray background for headers */
+    .logo {
+      width: 150px; /* Set a width for the logo */
+      margin-bottom: 10px; /* Space below the logo */
+    }
+    h1 {
+      color: #2c3e50; /* Darker text for contrast */
+      font-size: 2.5em; /* Increased font size */
+      margin: 0; /* Remove default margin */
+    }
+    .container {
+      max-width: 800px; /* Limit the width of the content */
+      margin: auto; /* Center the container */
+      background-color: #ffffff; /* White background for container */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      padding: 20px; /* Padding inside the container */
     }
     table {
       width: 100%; /* Make the table take full width */
-      margin-top: 20px; /* Add some space above the table */
+      border-collapse: collapse;
+      margin-top: 20px; /* Space above the table */
+    }
+    th, td {
+      border: 1px solid #bdc3c7; /* Light gray border */
+      padding: 15px; /* Increased padding */
+      text-align: left; /* Left align text */
+      font-size: 1.1em; /* Increased font size */
+    }
+    th {
+      background-color: #3498db; /* Blue background for headers */
+      color: white; /* White text for headers */
+      font-weight: bold; /* Bold text for headers */
     }
     tr:nth-child(even) {
-      background-color: #f9f9f9; /* Zebra striping for rows */
+      background-color: #ecf0f1; /* Light gray for even rows */
+    }
+    tr:hover {
+      background-color: rgba(52, 152, 219, 0.3); /* Highlight row on hover */
+    }
+    .edit {
+      width: 150px;
+      border-radius: 50%; /* Circular image */
+      border: 2px solid #3498db; /* Blue border around image */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for image */
+    }
+
+    .logo {
+      width: 150px;
+    }
+    a {
+      color: #2980b9; /* Link color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold; /* Bold links */
+    }
+    a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #7f8c8d; /* Footer text color */
+      font-size: 0.9em; /* Smaller font size for footer */
+    }
+    .see-more-button {
+      display: block;
+      width: 200px; /* Set a width for the button */
+      margin: 20px auto; /* Center the button */
+      padding: 10px; /* Padding inside the button */
+      background-color: #3498db; /* Button background color */
+      color: white; /* Button text color */
+      border: none; /* Remove border */
+      border-radius: 5px; /* Rounded corners */
+      font-size: 1em; /* Font size */
+      cursor: pointer; /* Pointer cursor on hover */
+      text-align: center; /* Center text */
+    }
+    .see-more-button:hover {
+      background-color: #2980b9; /* Darker blue on hover */
+    }
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em; /* Smaller heading on mobile */
+      }
+      th, td {
+        font-size: 1em; /* Smaller text on mobile */
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Personal Information</h1>
-  <table>
-    <tr>
-      <th>Name</th>
-      <td>Arfat Elnour Osman Omer</td>
-      <th>Photo</th>
-      <td><img src="AI230244.jpg" alt="Photo"></td>
-    </tr>
-    <tr>
-      <th>Date of Birth</th>
-      <td colspan="3">March 1, 2004</td>
-    </tr>
-    <tr>
-      <th>Religion</th>
-      <td>Islam</td>
-      <th>Race</th>
-      <td>Africa</td>
-    </tr>
-    <tr>
-      <th rowspan="3">Address</th>
-      <td>Street 60</td>
-      <th>Town</th>
-      <td>Mayrno</td>
-    </tr>
-    <tr>
-      <td>Sudan</td>
-      <th>State</th>
-      <td>Sinaar</td>
-    </tr>
-    <tr>
-      <th>Mobile Phone</th>
-      <td colspan="2">+601121603352</td>
-    </tr>
-    <tr>
-      <th>Social Media</th>
-      <td><a href="https://api.whatsapp.com/send/?phone=601121603352&text&type=phone_number&app_absent=0" target="_blank" style="color: rgb(12, 130, 130); text-decoration: none;">>>WhatsApp<<</a></td>
-      <th>Website</th>
-      <td><a href="https://arafatalnoor.github.io/2/Task2.html" target="_blank" style="color: rgb(12, 130, 130); text-decoration: none;">>>Task 2<<</a></td>
-    </tr>
-    
-    <tr>
-      <th>Course</th>
-      <td colspan="3">BIT 21503 Web Development</td>
-    </tr>
-    <tr>
-      <th>Programming Skills</th>
-      <td colspan="3">
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th>Hobbies</th>
-      <td colspan="3">
-        <ol>
-          <li>Gaming</li>
-          <li>Reading</li>
-          <li>Listen Music</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <th>2025 Wishlist</th>
-      <td colspan="3">Graduate with honors, back to Sudan</td>
-    </tr>
-  </table>
+  <header>
+    <img src="fsktmlogo.png" alt="FSKTM Logo" class="logo"> <!-- Added logo -->
+    <h1>Personal Information</h1>
+  </header>
+  <div class="container">
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Arfat Elnour Osman Omer</td>
+        <th>Photo</th>
+        <td><img src="AI230244.jpg" alt="Photo" class="edit"></td>
+      </tr>
+      <tr>
+        <th>Date of Birth</th>
+        <td colspan="3">March 1, 2004</td>
+      </tr>
+      <tr>
+        <th>Religion</th>
+        <td>Islam</td>
+        <th>Race</th>
+        <td>Africa</td>
+      </tr>
+      <tr>
+        <th rowspan="3">Address</th>
+        <td>Street 60</td>
+        <th>Town</th>
+        <td>Mayrno</td>
+      </tr>
+      <tr>
+        <td>Sudan</td>
+        <th>State</th>
+        <td>Sinaar</td>
+      </tr>
+      <tr>
+        <th>Mobile Phone</th>
+        <td colspan="2">+601121603352</td>
+      </tr>
+      <tr>
+        <th>WhatsApp</th>
+        <td><a href="https://api.whatsapp.com/send/?phone=601121603352&text&type=phone_number&app_absent=0" target="_blank" style="text-decoration: none;">Click Here</a></td>
+        <th>Conference Registration</th>
+        <td><a href="https://arafatalnoor.github.io/2/Task2.html" target="_blank" style="text-decoration: none;">Click Here</a></td>
+      </tr>
+      <tr>
+        <th>Course</th>
+        <td colspan="3">BIT 21503 Web Development</td>
+      </tr>
+      <tr>
+        <th>Programming Skills</th>
+        <td colspan="3">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Hobbies</th>
+        <td colspan="3">
+          <ol>
+            <li>Gaming</li>
+            <li>Reading</li>
+            <li>Listening to Music</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <th>2025 Wishlist</th>
+        <td colspan="3">Graduate with honors, back to Sudan</td>
+      </tr>
+      <tr>
+        <th>Campus Life</th>
+        <td colspan="3">I Made This Website For System Analysis <a href="https://arafatalnoor.github.io/system-analysis/" target="_blank" rel="noopener noreferrer">Click Here</a> And This For Project Management <a href="https://arafatalnoor.github.io/project-management/" target="_blank" rel="noopener noreferrer">Click Here</a></td>
+      </tr>
+    </table>
+    <a href="Biodata.html" class="see-more-button" style="text-decoration: none;">See More</a>
+  </div>
 </body>
 </html> 
